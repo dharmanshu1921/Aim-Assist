@@ -1,0 +1,117 @@
+*,
+*:before,
+*:after {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+:root{
+--ff-oxanium: 'Oxanium', cursive;
+--ff-poppins: 'Poppins', sans-serif;
+--marigold: hsl(42, 99%, 46%);
+--raisin-black-3: hsl(280, 11%, 11%);
+}
+body {
+     background-color: var(--raisin-black-3);
+}
+.error {
+     position: absolute;
+     top: 5%;
+     left: 33%;
+     width: 38vw;
+     height: 5rem;
+     z-index: 1000;
+     padding: 15px 20px;
+     color: white;
+     letter-spacing: 2px;
+     transform: skewX(-10deg);
+}
+.background {
+     width: 430px;
+     height: 520px;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     left: 50%;
+     top: 50%;
+}
+.background .shape {
+     height: 200px;
+     width: 200px;
+     position: absolute;
+     border-radius: 50%;
+}
+.shape:first-child {
+     background: linear-gradient(#9b22ea, #bf23f6);
+     left: -80px;
+     top: -80px;
+}
+.shape:last-child {
+     background: linear-gradient(to right, #ff512f, #f09819);
+     right: -70px;
+     bottom: -80px;
+}
+form {
+     height: 520px;
+     width: 430px;
+     background-color: rgba(255, 255, 255, 0.07);
+     position: absolute;
+     top: 20%;
+     left: 34%;
+     border-radius: 10px;
+     background-color: var(--marigold);
+     transform: skewX(-10deg);
+     padding: 50px 35px;
+}
+form * {
+     font-family: "Poppins", sans-serif;
+     color: black;
+     letter-spacing: 0.5px;
+     font-weight: 600;
+     outline: none;
+     border: none;
+}
+form h3 {
+     font-size: 32px;
+     font-weight: 500;
+     line-height: 42px;
+}
+form h3 span {
+     display: block;
+     font-size: 16px;
+     font-weight: 300;
+     color: #e5e5e5;
+}
+label {
+     display: block;
+     margin-top: 30px;
+     font-size: 16px;
+     font-weight: 500;
+}
+input {
+     display: block;
+     height: 50px;
+     width: 100%;
+     background-color:white;
+     border-radius: 3px;
+     font-family: "Poppins", sans-serif;
+     padding: 0 10px;
+     margin-top: 8px;
+     font-size: 14px;
+     font-weight: 300;
+}
+::placeholder {
+     color: #595959;
+}
+button {
+     margin-top: 50px;
+     width: 100%;
+     background-color: white;
+     color: #080710;
+     padding: 15px 0;
+     font-size: 18px;
+     letter-spacing: 5px;
+     font-family: var(--ff-poppinss);
+     font-weight: 900;
+     border-radius: 5px;
+     cursor: pointer;
+}
