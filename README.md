@@ -29,7 +29,12 @@ Aim assist is a feature in video games that helps players aim at their targets m
 - CSS
 - HTML
 - Node JS
+- Express JS
 
 ## **Installation**
+1. Install node packages
+1. run `node start`
+
+For using it directly ,visit the website: []()
 
 
