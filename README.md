@@ -1,7 +1,8 @@
-# Aim-Assist
-We are Angry Nerds and we have made our project on **Aim Assist Trainer**
+# Aim-Assist 🚀🎯
+I love aim assist so much, I named my firstborn "Aim" is what some of the gaming nerds may do. We are Angry Nerds and we have made our project on **Aim Assist Trainer** to cater to those nerds.
 
-## **Table of Contents**
+
+## **Table of Contents**📝
 - [Over View](#over-view)
 
 - [Description](#description)
@@ -23,7 +24,7 @@ Aim assist is a feature in video games that helps players aim at their targets m
 1. **Refined Aim Assist**: Tested our aim assist and refined it as needed. It involved adjusting the amount of aim assist applied, the detection range and other parameters.
 1. **Added User Interface**: Finally, We have added a user interface element that indicates when aim assist is active and how strong it is.
 
-## **Tech Stack**
+## **Tech Stack**🧑‍💻
 - JavaScript
 - Unity
 - CSS
@@ -31,7 +32,7 @@ Aim assist is a feature in video games that helps players aim at their targets m
 - Node JS
 - Express JS
 
-## **Installation**
+## **Installation**⚙️
 1. Install node packages
 1. run `node start`
 
